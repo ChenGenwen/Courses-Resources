@@ -1,0 +1,92 @@
+body {
+	background: url("./background.jpg") center;
+    no-repeat center center;
+   background-size:cover;
+   background-attachment:fixed;
+   background-color:#CCCCCC;
+
+}
+#header {
+            
+
+left: 200px;
+font-family:"微软雅黑", "宋体"," 黑体", Arial;
+ color: white;
+
+font-size: 40px;
+
+font-weight: bold;
+
+height: 60px;
+
+line-height: 10px;
+
+margin: 100px 0 !important;
+
+padding: 10px 0 8px 8px;
+
+text-shadow: 4px 4px 6px #222222;
+            }
+
+
+
+#login-box {
+	width: 30%;
+	height: 40%;
+	margin-top: 10%;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-bottom: 20%;
+	margin-top: 10%;
+	text-align: center;
+	background: #00000080;
+	padding: 20px 50px;
+}
+
+#login-box h1 {
+    color: white;
+
+}
+
+#login-box .form .item {
+    margin-top: 15px;
+}
+
+#login-box .form .item input {
+    width: 180px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 3px solid white;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+}
+
+#login-box .form .item input[placeholder] {
+    color: white;
+}
+
+#login-box .form .item i {
+    font-size: 18px;
+    color: white;
+}
+
+#login-box button {
+    border: 0;
+    margin-top: 15px;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    border-radius: 15px;
+}
+
+#message-box {
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
